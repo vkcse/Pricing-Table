@@ -1,0 +1,45 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.pricing-plan {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.plan-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-pricing {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.plan-features {
+    list-style-type: none;
+}
+
+.plan-features li {
+    margin-bottom: 20px;
+}
+
+.plan-button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
